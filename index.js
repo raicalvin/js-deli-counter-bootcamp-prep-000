@@ -6,6 +6,10 @@ function takeANumber(katzDeliLine, newName) {
 }
 
 function nowServing(katzDeliLine) {
-  katzDeliLine = [];
-  console.log('whattttuupPPPPP', katzDeliLine.unshift())
+  let person = katzDeliLine.unshift();
+  if (person) {
+    return person;
+  }
+  
+  return 'There is nobody waiting to be served!'
 }
