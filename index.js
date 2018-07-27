@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, newName) {
 function nowServing(katzDeliLine) {
   let person = katzDeliLine.unshift();
   if (person) {
-    return person;
+    return 'Currently servering ' + person;
   }
   return 'There is nobody waiting to be served!';
 }
