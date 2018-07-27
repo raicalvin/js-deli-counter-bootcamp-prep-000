@@ -14,9 +14,8 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(line) {
-  let num = 1;
   let lineString = 'The line is currently: ';
   for (let i = 0; i < line.length; i++) {
-    
+    lineString += (i + 1) + '. ' + line[i] + ', ' 
   }
 }
