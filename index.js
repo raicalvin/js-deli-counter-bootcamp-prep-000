@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, newName) {
 }
 
 function nowServing(katzDeliLine) {
-  let person = katzDeliLine.unshift();
+  let person = katzDeliLine.shift();
   if (person) {
     return 'Currently servering ' + katzDeliLine[person];
   }
